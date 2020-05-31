@@ -1,0 +1,32 @@
+{
+  "name": "@wbenxin/amqplib-rpc",
+  "version": "1.0.0",
+  "description": "基于amqplib实现的rpc服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "npm publish",
+    "postpublish": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbenxin/amqplib-rpc.git"
+  },
+  "keywords": [
+    "amqplib-rpc",
+    "rabbit",
+    "amqp",
+    "amqplib",
+    "rpc"
+  ],
+  "author": "wbenxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbenxin/amqplib-rpc/issues"
+  },
+  "homepage": "https://github.com/wbenxin/amqplib-rpc#readme",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "uuid": "^8.1.0"
+  }
+}
