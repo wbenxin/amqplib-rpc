@@ -1,6 +1,6 @@
 {
   "name": "@wbenxin/amqplib-rpc",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "基于amqplib实现的rpc服务",
   "main": "index.js",
   "scripts": {
